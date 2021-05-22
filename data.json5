@@ -1,0 +1,198 @@
+{
+  // 页面title
+  title: "流星永恒 - 宛文振",
+  // 社交链接
+  social: {
+    github: "https://github.com/manerfan",
+    twitter: "https://twitter.com/manerfan_china",
+    linkedin: "https://www.linkedin.com/in/%E6%B0%B8%E6%B0%B8-%E6%A8%8A-705071104/",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "流星~永恒",
+    desc: [
+      "小码仔一枚",
+      "前端不熟",
+      "后端不精",
+      "运维不懂",
+      "一无是处",
+      "嘤嘤嘤！"
+    ],
+    name: "宛文振",
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "这就是我",
+        subtitle: "about me",
+      },
+      content: {
+        name: "宛文振",
+        desc: [
+          "如果愿意，流星也可以永恒",
+          "流星，因为短暂而美丽，划过黑寂的夜空，释放出那一闪而逝的光芒，虽然微弱，但却没有人能无视它的存在",
+        ],
+        md: "鄙人宛文振，生于江西九江，苦读十二载，后求学于河南郑州~"
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "主页": "http://cv.manerfan.com",
+        "博客": "http://blog.manerfan.com",
+        "专栏": "http://zhuanlan.manerfan.com",
+        "公众号": "wwzhen"
+      },
+    },
+    // 履历
+    {
+      display: true,
+      anchor: {
+        id: "skills",
+        icon: "idcard",
+        name: "技能"
+      },
+      header: {
+        title: "技能",
+        subtitle: "my skills"
+      },
+      items: [
+        "具有PC端、移动端、h5、前后端分离及微信公众号、小程序的开发经验，开源社交分享组件、后台管理设计方案至GitHub。熟练使 用HTML(5)、CSS(3)、JavaScript构建高性能的Web应用程序。",
+        "熟悉JavaScript、ES6、预编译TypeScript、jQuery类库，原生BOM、DOM对象。熟练运用Ajax、Json进行数据交互，常用Axios。",
+        "熟练Flex布局，预处理器Sass，熟悉AntDesign、ElementUI、BootStrap等常用前端UI框架。了解Less、Styled-Components。",
+        "熟悉React、Vue框架进行模块化开发单页应用，状态管理库Redux、Vuex、Dva，SSR开发Next、NuxtJs，采用过RequireJs构建过 个人项目。了解Angular、SeaJs、React-Native。",
+      ]
+    },
+    {
+      display: true,
+      anchor: {
+        id: "stacks",
+        icon: "idcard",
+        name: "技术栈"
+      },
+      header: {
+        title: "技术栈",
+        subtitle: "technology stack"
+      },
+      items: [
+        {
+          category: "前端"
+        },
+        {
+          category: "后端"
+        },
+        {
+          category: "工具"
+        }
+      ]
+    },
+    {
+      display: true,
+      anchor: {
+        id: "honor",
+        icon: "idcard",
+        name: "荣誉"
+      },
+      header: {
+        title: "荣誉",
+        subtitle: "honor"
+      },
+      items: [
+        {
+          time: "2019",
+          desc: "腾讯蓝鲸智云-运维开发工程师 证书 （编号：BKDS1911140554） 电子证书查询地址：",
+          url: "https://bk.tencent.com/exam-v2/#/queryCredentials"
+        },
+        {
+          time: "2018",
+          desc: "上海有孚网络年度优秀新员工"
+        },
+        {
+          time: "2016",
+          desc: "郑州大学校ACM大赛三等奖"
+        },
+      ]
+    },
+    {
+      display: true,
+      anchor: {
+        id: "works",
+        icon: "idcard",
+        name: "作品"
+      },
+      header: {
+        title: "作品",
+        subtitle: "my works"
+      },
+      items: [
+
+      ]
+    },
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "经历",
+        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "江西中至科技集团有限公司",
+          subtitle: "2020-12 ~ 2021-05",
+          md: "开发工程师\
+          \n\
+          \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        },
+        {
+          title: "上海有孚网络股份有限公司",
+          subtitle: "2018-03 至 2020-07",
+          md: "开发工程师\
+          \n\
+          \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        },
+        {
+          title: "郑州大学",
+          subtitle: "2014-09 至 2018-07",
+          md: "**<u>本科</u>**\
+          \n\
+          \n<!--**专业**：软件工程-->\
+          \n\
+          \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`",
+        },
+      ],
+    },
+    // 博客页
+    {
+      display: false,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+      blog: "https://segmentfault.com/blog/manerfan",
+      rss: "https://segmentfault.com/feeds/blog/manerfan",
+    },
+  ],
+}
