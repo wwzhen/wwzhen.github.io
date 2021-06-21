@@ -20,7 +20,6 @@
       "前端不熟",
       "后端不精",
       "运维不懂",
-      "一无是处",
       "嘤嘤嘤！"
     ],
     name: "宛文振",
@@ -48,14 +47,20 @@
           "如果愿意，流星也可以永恒",
           "流星，因为短暂而美丽，划过黑寂的夜空，释放出那一闪而逝的光芒，虽然微弱，但却没有人能无视它的存在",
         ],
-        md: "鄙人宛文振，生于江西九江，苦读十二载，后求学于河南郑州~"
+        md: [
+          "热爱运动，足球狗一枚（利物浦必胜！）",
+          "有着强烈的责任心（也曾见过凌晨4点钟的上海 O(∩_∩)O）",
+          "热爱编程，喜欢瞎折腾 (⊙o⊙)…",
+          "有较强的适应能力、抗压能力，以及团队协作精神",
+          "加油，打工人！"
+        ],
       },
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主页": "http://cv.manerfan.com",
-        "博客": "http://blog.manerfan.com",
-        "专栏": "http://zhuanlan.manerfan.com",
-        "公众号": "wwzhen"
+        "主页": "https://wwzhen.github.io",
+        "博客": "http://wwzhen.site",
+        "邮箱": "wwzhen1083728594@gmail.com",
+        "qq": "1083728594"
       },
     },
     // 履历
@@ -63,7 +68,7 @@
       display: true,
       anchor: {
         id: "skills",
-        icon: "idcard",
+        icon: "bars",
         name: "技能"
       },
       header: {
@@ -71,10 +76,15 @@
         subtitle: "my skills"
       },
       items: [
-        "具有PC端、移动端、h5、前后端分离及微信公众号、小程序的开发经验，开源社交分享组件、后台管理设计方案至GitHub。熟练使 用HTML(5)、CSS(3)、JavaScript构建高性能的Web应用程序。",
-        "熟悉JavaScript、ES6、预编译TypeScript、jQuery类库，原生BOM、DOM对象。熟练运用Ajax、Json进行数据交互，常用Axios。",
-        "熟练Flex布局，预处理器Sass，熟悉AntDesign、ElementUI、BootStrap等常用前端UI框架。了解Less、Styled-Components。",
-        "熟悉React、Vue框架进行模块化开发单页应用，状态管理库Redux、Vuex、Dva，SSR开发Next、NuxtJs，采用过RequireJs构建过 个人项目。了解Angular、SeaJs、React-Native。",
+        "扎实的 Python 基础，了解 Django 开发框架的设计原理及运行机制，熟悉Celery异步框架",
+        "熟悉前后端分离的开发模式，对 Vue 有实际使用经验。掌握html，JavaScript，css等前端开发技能",
+        "掌握 MySQL、PostgreSQL 等常见的关系型数据库。拥有一定的数据库设计能力和优化能力",
+        "掌握 Git，SVN 等代码管理工具的使用，了解 jenkins 自动部署、测试",
+        "掌握常用的数据结构及算法，熟悉常见的设计模式",
+        "熟悉 Redis、RabbitMQ、Nginx 等常用的中间件的使用",
+        "掌握 docker 的使用，熟悉 linux 系统及常用命令",
+        "熟悉 PEP8 编码规范，有着良好的代码风格",
+        "了解云相关知识，以及自动化运维相关知识",
       ]
     },
     {
@@ -104,7 +114,7 @@
       display: true,
       anchor: {
         id: "honor",
-        icon: "idcard",
+        icon: "file-protect",
         name: "荣誉"
       },
       header: {
@@ -128,7 +138,7 @@
       ]
     },
     {
-      display: true,
+      display: false,
       anchor: {
         id: "works",
         icon: "idcard",
@@ -139,14 +149,13 @@
         subtitle: "my works"
       },
       items: [
-
       ]
     },
     {
       display: true,
       anchor: {
         id: "experience",
-        icon: "idcard",
+        icon: "solution",
         name: "经历"
       },
       header: {
@@ -157,25 +166,25 @@
         {
           title: "江西中至科技集团有限公司",
           subtitle: "2020-12 ~ 2021-05",
-          md: "开发工程师\
-          \n\
-          \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+          md: [
+            "负责2217游戏平台管理后台的前后端开发",
+            "重构优化平台活动模块代码，制定前后端编码规范",
+            "负责2217游戏平台官网的维护",
+          ],
         },
         {
           title: "上海有孚网络股份有限公司",
           subtitle: "2018-03 至 2020-07",
-          md: "开发工程师\
-          \n\
-          \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+          md: [
+            "参与蓝鲸PaaS平台的维护（蓝鲸PaaS平台是腾讯研发的一款自动化运维PaaS平台）",
+            "进行SaaS应用的开发，协助测试人员测试，部署上线，以及后续的维护",
+            "参与云平台的开发及维护"
+          ]
         },
         {
           title: "郑州大学",
           subtitle: "2014-09 至 2018-07",
-          md: "**<u>本科</u>**\
-          \n\
-          \n<!--**专业**：软件工程-->\
-          \n\
-          \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`",
+          md: ["本科 软件工程专业"],
         },
       ],
     },
